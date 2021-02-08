@@ -1,0 +1,7 @@
+C:\Users\diazr\MSSA2021\Microsoft Press\VCSBS\Chapter 8\Parameters\Parameters\bin\Debug\Parameters.exe.config
+C:\Users\diazr\MSSA2021\Microsoft Press\VCSBS\Chapter 8\Parameters\Parameters\bin\Debug\Parameters.exe
+C:\Users\diazr\MSSA2021\Microsoft Press\VCSBS\Chapter 8\Parameters\Parameters\bin\Debug\Parameters.pdb
+C:\Users\diazr\MSSA2021\Microsoft Press\VCSBS\Chapter 8\Parameters\Parameters\obj\Debug\Parameters.csprojAssemblyReference.cache
+C:\Users\diazr\MSSA2021\Microsoft Press\VCSBS\Chapter 8\Parameters\Parameters\obj\Debug\Parameters.csproj.CoreCompileInputs.cache
+C:\Users\diazr\MSSA2021\Microsoft Press\VCSBS\Chapter 8\Parameters\Parameters\obj\Debug\Parameters.exe
+C:\Users\diazr\MSSA2021\Microsoft Press\VCSBS\Chapter 8\Parameters\Parameters\obj\Debug\Parameters.pdb
