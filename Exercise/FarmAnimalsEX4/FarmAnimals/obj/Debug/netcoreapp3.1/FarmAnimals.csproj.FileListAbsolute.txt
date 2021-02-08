@@ -1,0 +1,13 @@
+D:\MSSA\C#\FarmAnimals\FarmAnimals\bin\Debug\netcoreapp3.1\FarmAnimals.exe
+D:\MSSA\C#\FarmAnimals\FarmAnimals\bin\Debug\netcoreapp3.1\FarmAnimals.deps.json
+D:\MSSA\C#\FarmAnimals\FarmAnimals\bin\Debug\netcoreapp3.1\FarmAnimals.runtimeconfig.json
+D:\MSSA\C#\FarmAnimals\FarmAnimals\bin\Debug\netcoreapp3.1\FarmAnimals.runtimeconfig.dev.json
+D:\MSSA\C#\FarmAnimals\FarmAnimals\bin\Debug\netcoreapp3.1\FarmAnimals.dll
+D:\MSSA\C#\FarmAnimals\FarmAnimals\bin\Debug\netcoreapp3.1\FarmAnimals.pdb
+D:\MSSA\C#\FarmAnimals\FarmAnimals\obj\Debug\netcoreapp3.1\FarmAnimals.AssemblyInfoInputs.cache
+D:\MSSA\C#\FarmAnimals\FarmAnimals\obj\Debug\netcoreapp3.1\FarmAnimals.AssemblyInfo.cs
+D:\MSSA\C#\FarmAnimals\FarmAnimals\obj\Debug\netcoreapp3.1\FarmAnimals.csproj.CoreCompileInputs.cache
+D:\MSSA\C#\FarmAnimals\FarmAnimals\obj\Debug\netcoreapp3.1\FarmAnimals.dll
+D:\MSSA\C#\FarmAnimals\FarmAnimals\obj\Debug\netcoreapp3.1\FarmAnimals.pdb
+D:\MSSA\C#\FarmAnimals\FarmAnimals\obj\Debug\netcoreapp3.1\FarmAnimals.genruntimeconfig.cache
+D:\MSSA\C#\FarmAnimals\FarmAnimals\obj\Debug\netcoreapp3.1\FarmAnimals.csprojAssemblyReference.cache
