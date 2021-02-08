@@ -1,7 +1,0 @@
-C:\MSSA2021\Microsoft Press\VCSBS\Chapter 3\Factorial\Factorial\bin\Debug\DailyRate.exe.config
-C:\MSSA2021\Microsoft Press\VCSBS\Chapter 3\Factorial\Factorial\bin\Debug\DailyRate.exe
-C:\MSSA2021\Microsoft Press\VCSBS\Chapter 3\Factorial\Factorial\bin\Debug\DailyRate.pdb
-C:\MSSA2021\Microsoft Press\VCSBS\Chapter 3\Factorial\Factorial\obj\Debug\Factorial.csprojAssemblyReference.cache
-C:\MSSA2021\Microsoft Press\VCSBS\Chapter 3\Factorial\Factorial\obj\Debug\Factorial.csproj.CoreCompileInputs.cache
-C:\MSSA2021\Microsoft Press\VCSBS\Chapter 3\Factorial\Factorial\obj\Debug\DailyRate.exe
-C:\MSSA2021\Microsoft Press\VCSBS\Chapter 3\Factorial\Factorial\obj\Debug\DailyRate.pdb
