@@ -1,0 +1,83 @@
+## C# Programming Homework 04
+
+1.What are all possible values of Boolean expression?
+* Boolean values are true and false.
+
+2.List the equality operators. List the relational operators. List the logical operators. How are they the
+same? How are they different?
+1. Equality operators are ==, !=
+1. Relational operators are <, <=, >, >=
+1. Logical operators are &&, ||, !
+These operators assign value to an object, the value depends on the assignment operator
+
+3.What is the general concept of short circuiting? This question has a short and simple answer and you
+do not need to have a detailed response.
+* A method for evaluating logical operators AND and OR.
+
+4.What are the difference in how short circuiting works for && and ||?
+* && ( double ampersand ) – Conditional AND operator
+|| ( double pipeline) – Conditional OR operator
+
+5.Look at the list of operators. What operator has the highest precedence? Which has the lowest?
+* Primary operators such as (), ++, --, have higher precedence. The assignment operator = has the lowest precedence.
+
+6.In an if or else construction using multiple lines of code, what effect does the use of curly braces have?
+* It will perform more than one statement when a boolean expression is true.
+
+7.In a switch statement, what happens if you omit break?
+*  Execution runs as far as the break statement, at which point the switch statement finishes and the program continues at the first
+statement that follows the closing brace of the switch statement.
+
+8.The four keywords in a switch statement are switch, case, break, and default. Explain what each
+keyword does.
+1. Switch is a selection statement that chooses a single switch section to execute from a list of candidates based on 
+a pattern match with the match expression. initiates the switch statement.
+1. The case statement is part of the switch statement. This keyword is used inside switch statements of the C# programming language.
+a label that compares the statement.
+1. The break statement, at which point the switch statement finishes and the program continues at the first
+statement that follows the closing brace of the switch statement.
+1. The default statement specifies the default label in the switch statement. It can also be used as the default operator or literal to 
+produce the default value of a type.
+
+9.Look at the source listing below. It contains two methods: recurr1() and recurr2(). There is a
+significant difference between the two methods. What is it?
+* The difference between the two methods is one takes more memerory.
+
+10.(Not in book) What is a recursive method? Using a language you know (such as English), write a
+recursive method that adds up the integers in a list of integers. The input to the method is a list of
+integers and the output is a scalar value representing a sum.
+* A recursive method is a function that calls itself.
+````
+using System;
+
+namespace Recursive
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Recursive example");
+            int sumofnumbers = SumOfNumbers(10);
+            Console.WriteLine(sumofnumbers);
+        }
+
+        private static int SumOfNumbers(int n)
+        {
+            Console.WriteLine($"calling SumOfNumbers({n})");
+            if (n == 0)
+                return 0;
+            else
+                return n + SumOfNumbers(n - 1);
+        }
+    }
+}
+
+````
+11.(Not in book) Read a short summary of De Morgan’s laws.
+(a) Explain how this statement, ”It’s not snowing or raining,” is the same as this statement, ”It’s not
+snowing and it’s not raining.”
+* Both statements refere to the same subject & both statements are true. 
+
+(b) Explain how this statement, ”I’m not running and walking,” is the same as this statement, ”I’m
+not running or I’m not walking
+* Both statements refere to the same subject & both statements are true. 

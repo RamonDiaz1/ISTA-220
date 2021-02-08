@@ -1,0 +1,50 @@
+## C# Programming Homework 01 
+
+1.What is a console app? 
+* A console app is an application that runs in a Command Prompt window 
+instead of providing a graphical user interface (GUI).
+ 
+2.List two differences between .NET Framework and .NET Core. Note that in this class, we will be 
+writing C# applications in .NET Framework and ASP.NET applications in NET Core. 
+* You use the .NET Core template for building portable applications that can also run on other operating systems, while .NET Framework 
+is used for desktop and web applications. .NET Framework is older and only applies to windows, .Net Core is new, cross platform, and open source.
+ 
+3.What does Main() (the main method) do in a console application? 
+* The main method designates the program’s entry point. 
+
+4.Describe these three files: TextHello.sln, TextHello.csproj, and AssemblyInfo.cs. 
+* TextHello.sln is a solution file, TextHello.csproj is a project file, AssemblyInfo.cs is a special file that you can use to add attributes to a program. 
+
+5.What is the purpose of a namespace? 
+*namespaces are used to avoid name clashes between classes of the same name. 
+
+6.Describe specifically what using statements do. 
+* using statements enable you to bring a class into scope and omit the class name when accessing static members. 
+
+7.What is the entry point for a console app? What is the entry point for a UWP app? 
+* The entry point for a console app is the main method. The entry point for a UWP app is App.xaml file. 
+
+8.What is an assembly? 
+* An assembly is a file that usually has the .dll file name extension, although strictly speaking, executable 
+programs with the .exe file name extension are also assemblies. 
+
+9.How many different versions of the WriteLine() method does the Console class contain? 
+* it provides 19 different versions of this method. 
+
+10.What is the relationship between an assembly and a namespace? 
+* There is no relationship between the two.                                                                                                                     
+
+11.What is a graphical app? 
+* a graphical app is an application that provides a graphic user interface. 
+
+12.What does Build do? 
+* compiles the C# code. 
+
+13.(Not in book) What is bytecode? What is Microsoft CIL? Do you think that CIL is bytecode? Why 
+or why not? 
+* Bytecode is a program code that has been compiled from source code into low-level 
+code designed for a software interpreter. Microsoft CIL is the language of the .NET platform.  
+CIL is a bytecode as it can be compiled into high level languages. 
+
+14.What does Debug do? 
+* spot problems that prevent your applications from working correctly. 

@@ -1,0 +1,74 @@
+## C# Programming Homework 03
+
+1.What is a method?
+* A method is a named sequence of statements. a named block of code may return a value. optionally has an input or an output.
+
+2.(Not in book) What is the difference between a function and a procedure/subprocedure/subroutine?
+*  A Function is a named block of code that returns a value. a subprocedure takes an action and does not return value.
+a function returns a value whilst a sub procedure does not.
+
+3.What does a return statement do?
+* Returns information from a method.
+
+4.What is an expression bodied method?
+* Expression body definitions let you provide a member's implementation in a very concise, readable form.
+
+5.What is the scope of a variable?
+* the scope of a variable is simply the region of the program in which that variable is usable.
+
+6.What is a field?
+* A field is a variable of any type that is declared directly in a class or struct. Fields are members of their containing type.
+
+7.What is an overloaded method?
+* Two identifiers that have the same name and are declared in the same scope.
+
+8.How do you call a method that requires arguments?
+* Use the parentheses after the method name to give arguments.
+
+9.How do you write a method, that is, specify the method definition, that requires a parameter list?
+* Specify the method name, parameter list, and return type, followed by the body of the method between braces.
+
+10.How do you specify a parameter as optional when defining a method?
+* Provide a default value for the parameter in the method declaration.
+
+11.How do you pass a argument to a method as a named parameter?
+* Specify the name of the parameter in the method call followed by a ;
+
+12.How do you return values from a method? Can you return multiple values from a method, and if so,
+how?
+* Write a return statement within the method, to return multiple values you Write a return statement that returns a tuple.
+
+13.What is a tuple? How do you define a method that returns multiple values? Give an example of a
+method that returns multiple values other than the example in the book.
+* A tuple is simply a small collection of values. you can simply return Tuple object that contains all the return values.
+
+````
+ static Tuple<string, string> ReturnEmployeeNameTuple(int id)
+ {
+    var result = Tuple.Create<string, string>("senthil", "kumar");
+    return result;
+ }
+````
+
+14.Examine the method definition on page 83 of the book. Desk check the execution of this method.
+What do you discover? This is called recursion.
+* A recursive function is a function that calls itself.
+  
+````
+1 longfactorial ( int dataValue )
+2 {
+3 	if ( dataValue == 1 )
+4 		return 1 ;
+5 	else
+6 		return dataValue * factorial ( dataValue = 1 ) ;
+7 }
+````
+
+15.How does the compiler resolve an ambiguity between named arguments and optional parameters?
+* Define and call a method that takes optional parameters.
+
+16.The book states: “A key feature of C# and other languages designed for the .NET Framework is the
+ability to interoperate with applications and components written with other technologies.” What is
+the COM and how is the CLR dependent on the COM?
+*  Component Object Model (COM) is one of the principal technologies that underpins many Windows applications and services running outside the .NET Framework 
+heavily dependent on COM, as is the Windows Runtime of Windows 10. COM does not support overloaded methods; instead, it uses methods that can take optional parameters.

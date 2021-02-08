@@ -1,0 +1,57 @@
+## C# Programming Homework 02
+1.What is a local variable?
+* Variables that are local to the method in which they are declared. 
+
+2.What is a statement?
+* A statement is a command that performs an action, such as calculating a value and storing the result
+or displaying a message to a user.
+
+3.What is an identifier?
+* Identifiers are the names that you use to identify the elements in your programs, such as namespaces,
+classes, methods, and variables
+
+4.What is a keyword?
+* Keywords are identifiers that are used in C# language that cannot be reused for your own purpose.
+
+5.What is a variable?
+* A variable is a storage location that holds a value. You can think of a variable as a box in the computer’s
+memory that holds temporary information.
+
+6.How do you declare a variable? How do you assign a value to a variable? Can you have a variable that
+does not have a value? Can you declare and initialize a variable in a single statement?
+* When you declare a variable, you must specify the type of data it will hold
+* To assign value you must declare the variable first then add value to it.
+* You can not have a variable that does not have value in C# because a random value is assigned until you assign value to it. 
+
+7.What does Visual Studio do when you open a project (a .csproj file) without opening the solution (a
+.sln file)? Why might this be a problem?
+* Visual Studio automatically creates a new solution file for it. 
+
+8.How are arithmetic operators and variable types related?
+* Operators can be used on values depending the type.
+
+9.How do you turn an integer into a string?
+* To convert a interger into an string you use the ToString() 
+
+10.How do you turn a string into an integer?
+* To convert a string into an interger you use the Int32.Parse method.
+
+11.What is the difference between precedence and associativity? Give an example where this makes a
+difference.
+* Precedence governs the order in which an expression’s operators are evaluated, while associativity
+is the direction (left or right) in which the operands of an operator are evaluated. this makes a difference
+when  an expression contains different operators that have the same precedence.
+
+12.What is the definite assignment rule?
+* You must assign a value to a variable before you can use it; otherwise, your program will not compile.
+
+13.How are the prefix and postfix increment and decrement operators evaluated differently?
+* Whether you use the prefix or postfix form of the ++ or -- operator makes no difference to the
+variable being incremented or decremented.
+
+14.What is string interpolation?
+*  Renders many uses of the + operator obsolete for concatenating strings. Alson, you can direct the computer to evaluate an expression to a string.
+
+15.What does the var keyword do?
+*  Causes the compiler to deduce the type of the variables from the types of the expressions
+used to initialize them.
